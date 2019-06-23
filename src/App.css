@@ -1,8 +1,15 @@
     
 body {
   padding: 50px;
-  background-color: #66CCFF;
+  background-color: lightgray;
   font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+.nav {
+  height: 100px;
 }
 
 #container {
@@ -28,14 +35,14 @@ body {
   font-size: 16px;
   margin: 10px;
   margin-right: 0px;
-  background-color: #0066FF;
+  background-color: rgb(15, 240, 154);
   color: #FFF;
-  border: 2px solid #0066FF;
+  border: 2px solid  rgb(15, 240, 154);;
 }
 
 .todoListMain .header button:hover {
-  background-color: #003399;
-  border: 2px solid #003399;
+  background-color: #3674f1;
+  border: 2px solid  #3674f1;
   cursor: pointer;
 }
 
@@ -138,7 +145,7 @@ ul.theList {
 }
 
  ul.theList li:hover{
-	background-color: red;
+	background-color: rgb(179, 135, 135);
 	color: #ffffff;
 	cursor: pointer;
 }

@@ -11,7 +11,7 @@ class TodoList extends Component {
                 <div className="header">
                     <form onSubmit={this.props.addItem}>
                         <input
-                            placeholder="Task"
+                            placeholder="Enter to do Task"
                             ref={this.props.inputElement}
                             //value={this.props.currentItem.text}
                             onChange={this.props.handleInput}

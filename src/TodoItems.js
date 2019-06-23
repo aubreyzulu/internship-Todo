@@ -2,15 +2,6 @@ import React, { Component } from 'react'
 
 class TodoItems extends Component {
 
-  // createTasks = item => {
-  //   return (
-     
-  //       <li key={item.key} onClick={() => this.props.deleteItem(item.key)}>
-  //         {item.text}
-  //       </li>
-      
-  //   )
-  // }
   constructor() {
     super()
     this.state = {
@@ -26,7 +17,6 @@ class TodoItems extends Component {
   }
 
   createTasks = item => {
-
     var txtClass = item.completed ? 'completed' : 'uncompleted';
 
     return (
@@ -47,7 +37,7 @@ class TodoItems extends Component {
               onClick={() => this.props.deleteItem(item.key)}>Delete</button>
           </div>
         }
-        
+
         {item.show &&
           <div>
             <input className="edit-input"
